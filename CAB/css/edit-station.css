@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 7%;
+
+
+
+}
+
+.main-header {
+    width: inherit;
+    /* margin: auto; */
+    border: 5px black solid;
+    border-radius: 80px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(60, 28, 238);
+    color: whitesmoke;
+    padding: 30px 50px;
+    border-bottom: unset;
+
+}
+
+p {
+    margin: unset;
+}
+
+.my-form {
+    border: 5px black solid;
+    border-radius: 80px;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+    background-color: rgba(245, 245, 245, 0.813);
+    padding: 50px 0px 15px 0px;
+
+}
+
+
+
+input {
+    font-size: 25px;
+    border: 1.5px rgb(60, 28, 238) solid;
+    padding: 7px 0px;
+    margin: auto;
+    border-radius: 7px;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+
+#submitButton {
+
+    margin-top: 40px;
+    border-radius: 15px;
+    color: whitesmoke;
+    background-color: rgb(60, 28, 238);
+    border: 0px black solid;
+    border-color: unset;
+    font-size: 20px;
+    padding: 15px;
+    width: unset;
+}
+
+#submitButton:hover {
+    background-color: rgb(37, 19, 142);
+}

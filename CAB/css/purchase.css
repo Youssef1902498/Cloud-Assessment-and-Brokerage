@@ -1,0 +1,101 @@
+.purchace-ticket-body {
+	/* margin-top: 60px; */
+	/* display: flex; */
+	justify-content: center;
+	/* align-items: center; */
+	/* min-height: 100vh; */
+	/* font-family: sans-serif; */
+	/* font-size: 20px; */
+	margin-top: 80px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+	color: rgb(60, 28, 238);
+	text-transform: uppercase;
+	/* font-weight: 900; */
+}
+
+h2 span {
+	color: black;
+	/* margin-left: -7px; */
+}
+
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 15px;
+	padding: 30px;
+}
+
+form .input-field {
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+	/* width: 100%; */
+	/* gap: 10px; */
+}
+
+input {
+	font-size: 15px;
+	border: 1.5px solid #bbb;
+	padding: 12px 10px;
+	min-width: 300px;
+	outline: none;
+	transition: 0.3s;
+}
+
+input:focus {
+	border-color: #282828;
+	box-shadow: inset 0 0 0 1px #282828;
+}
+
+#buttonToSubmit {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(60, 28, 238);
+	border-radius: 15px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 10px 0;
+	min-width: 100%;
+	padding: 12px;
+	position: relative;
+}
+
+/* #buttonToSubmit::before {
+	background-image: linear-gradient(178deg,
+			rgb(106, 106, 253),
+			rgb(106, 106, 253) 20%,
+			rgba(0, 0, 0, 0.07) 0,
+			rgba(0, 0, 0, 0.07)),
+		linear-gradient(rgb(106, 106, 253), rgb(106, 106, 253));
+	bottom: 0;
+	content: "";
+	height: 0;
+	left: 0;
+	position: absolute;
+	transition: 0.3s;
+	width: 100%;
+}
+
+#buttonToSubmit:hover::before {
+	height: 100%;
+} */
+#buttonToSubmit:hover {
+	background-color: rgb(37, 18, 145);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* form button span {
+	position: relative;
+	z-index: 5;
+} */

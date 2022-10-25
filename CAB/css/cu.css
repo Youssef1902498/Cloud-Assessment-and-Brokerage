@@ -1,0 +1,73 @@
+/* Start Contact */
+
+.contact .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*form*/
+.contact .content form {
+    flex-basis: 70%;
+}
+
+.contact .content form .main-input {
+    padding: 20px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.contact .content form .main-input:focus {
+    outline: none;
+}
+/*email*/
+.contact .content form textarea.main-input {
+    height: 200px;
+    /*message*/
+}
+.contact .content form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact .content .info {
+    flex-basis: 25%;
+}
+@media (max-width: 767px) {
+    .contact .content .info {
+        order: -1;
+        text-align: center;
+    }
+}
+.contact .content .info h4 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(235, 13, 13)35, 13, 13);
+
+}
+.contact .content .info span.phone {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+.contact .content .info h4:nth-of-type(2) {
+    margin-top: 90px;
+}
+input[type=button] {
+  background-color: #0714cc;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+

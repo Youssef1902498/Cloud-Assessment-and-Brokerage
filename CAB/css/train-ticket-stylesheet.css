@@ -1,0 +1,125 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    font-weight: 300;
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.main-header {
+    font-size: 25px;
+    width: 300px;
+    margin: auto;
+    font-weight: bold;
+    letter-spacing: 4px;
+    word-spacing: 0px;
+    text-decoration: underline;
+}
+
+
+.header1 {
+    background-image: url(../images/5c5ebb82714d1567467b95f833f9d014.jpeg);
+    background-repeat: no-repeat;
+    background-position-y: -7px;
+    background-position-x: 6px;
+    background-size: 120px 55px;
+    background-color: rgb(60, 28, 238);
+    border: 5px black solid;
+    border-radius: 20px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    border-bottom: unset;
+    width: inherit;
+    /* margin: inherit; */
+    margin-top: 40px;
+    color: whitesmoke;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+h1 {
+    margin: 0px 120px;
+
+}
+
+.whole-ticket {
+    background-image: url(../images/abstract-soft-blue-background-with-dynamic-waves-shape-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px black solid;
+    border-top: unset;
+    border-bottom: unset;
+    width: inherit;
+    margin: auto;
+}
+
+.footer {
+    background-color: rgb(60, 28, 238);
+    border: 5px black solid;
+    border-radius: 20px;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+    border-top: unset;
+    width: inherit;
+    margin: auto;
+    color: whitesmoke;
+    padding: 10px 0px;
+
+}
+
+.left-ticket-part,
+.right-ticket-part {
+    display: inline-block;
+    text-align: left;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+.left-ticket-part {
+    margin-right: 35px;
+    margin-left: 20px;
+
+}
+
+.right-ticket-part {
+    margin-top: 0px;
+    margin-left: 35px;
+}
+
+.depart-time,
+.class-degree {
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+}
+
+.class-degree {
+    display: inline-block;
+    width: 130px;
+    margin: auto;
+
+
+}
+
+input {
+    border: hidden;
+    font-size: small;
+    background-color: rgba(245, 245, 245, 0);
+    padding: 5px;
+}
+
+.right-ticket-part .filler-div {
+    visibility: hidden;
+}
+
+.right-ticket-part input {
+    width: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

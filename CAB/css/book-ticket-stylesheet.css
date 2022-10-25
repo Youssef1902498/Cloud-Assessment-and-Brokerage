@@ -1,0 +1,167 @@
+body {
+    margin-top: -50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.heading {
+    background-color: rgb(60, 28, 238);
+    color: whitesmoke;
+    font-size: large;
+    width: 850px;
+    margin: auto;
+    border: 5px black solid;
+    font-style: normal;
+    border-radius: 100px;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    border-bottom: 10px black solid;
+}
+
+.user-input {
+    border: 5px black solid;
+    border-radius: 100px;
+    border-top-left-radius: unset;
+    border-top-right-radius: unset;
+    border-top: unset;
+    width: 850px;
+    margin: auto;
+    margin-top: -10px;
+    background-color: rgba(245, 245, 245, 0.813);
+}
+
+.source,
+.destination,
+.date,
+.time,
+.returning-date,
+.oneWay-twoWay,
+.firstClass-secondClass {
+    display: inline-block;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.source,
+.date,
+.returning-date,
+.oneWay-twoWay {
+    margin-right: 150px;
+}
+
+.no-of-tickets,
+.submit-and-reset,
+.ticket-price {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.ticket-price {
+    margin-left: 50px;
+}
+
+#ticketPrice {
+    border: hidden;
+    background-color: whitesmoke;
+}
+
+input {
+    font-size: 20px;
+    border: 1.5px rgb(60, 28, 238) solid;
+    border-radius: 7px;
+
+}
+
+.no-of-tickets input {
+    padding-left: 10px;
+    width: 30px;
+}
+
+select {
+    font-size: 18px;
+    border: 1.5px rgb(60, 28, 238) solid;
+    border-radius: 7px;
+    width: 250px;
+
+}
+
+.submit-and-reset {
+    margin-top: 30px;
+}
+
+/* #reset, */
+#submit {
+    /* margin-left: 5px; */
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    border-color: unset;
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+#submit:hover {
+    background-color: rgb(60, 28, 238);
+}
+
+/* #reset {
+    background-color: red;
+} */
+
+.source {
+    margin-right: 70px;
+}
+
+.date,
+.returning-date {
+    width: 340px;
+    margin-right: auto;
+}
+
+.time {
+    width: 370px;
+    margin: auto;
+}
+
+#time,
+#date,
+#return-date {
+    padding: 5px 12px;
+}
+
+.firstClass-secondClass {
+    /* border: 1.5px #2c16f300 solid;
+    border-radius: 7px;
+    padding: 10px; */
+    margin-left: 50px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.radio-buuton-header .p2 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#secondClass {
+    margin-left: 5px;
+}
+
+#twoWay {
+    margin-left: 2.5px;
+}
+
+.returning-date {
+    display: none;
+}
